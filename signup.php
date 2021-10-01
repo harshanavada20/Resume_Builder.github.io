@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<title>SIGN UP</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
@@ -17,37 +20,37 @@
 
           <label>Name</label>
           <?php if (isset($_GET['name'])) { ?>
-               <input type="text" 
-                      name="name" 
+               <input type="text"
+                      name="name"
                       placeholder="Name"
                       value="<?php echo $_GET['name']; ?>"><br>
           <?php }else{ ?>
-               <input type="text" 
-                      name="name" 
+               <input type="text"
+                      name="name"
                       placeholder="Name"><br>
           <?php }?>
 
           <label>User Name</label>
           <?php if (isset($_GET['uname'])) { ?>
-               <input type="text" 
-                      name="uname" 
+               <input type="text"
+                      name="uname"
                       placeholder="User Name"
                       value="<?php echo $_GET['uname']; ?>"><br>
           <?php }else{ ?>
-               <input type="text" 
-                      name="uname" 
+               <input type="text"
+                      name="uname"
                       placeholder="User Name"><br>
           <?php }?>
 
 
      	<label>Password</label>
-     	<input type="password" 
-                 name="password" 
+     	<input type="password"
+                 name="password"
                  placeholder="Password"><br>
 
           <label>Re Password</label>
-          <input type="password" 
-                 name="re_password" 
+          <input type="password"
+                 name="re_password"
                  placeholder="Re_Password"><br>
 
      	<button type="submit">Sign Up</button>

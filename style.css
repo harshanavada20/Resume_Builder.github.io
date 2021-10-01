@@ -5,13 +5,17 @@ body {
 	align-items: center;
 	height: 100vh;
 	flex-direction: column;
+	margin-bottom: 120px;
+
 }
 
 *{
 	font-family: sans-serif;
 	box-sizing: border-box;
 }
-
+.header{
+  padding-top: 30px;
+}
 form {
 	width: 500px;
 	border: 2px solid #ccc;
@@ -83,4 +87,4 @@ h1 {
 }
 .ca:hover {
 	text-decoration: underline;
-} 
+}
